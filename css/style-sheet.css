@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  --font-primary: #dae026;
+  --font-secondary: #000000;
+  --btn-trans-color: #e56809;
+  --box-color: #fefffe;
+  /* border: rgb(128, 183, 46) solid 4px; */
+}
+
+body {
+  padding-top: 120px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  width: 800px;
+  height: 500px;
+}
+
+main .shoe-img {
+  width: 400px;
+}
+
+main .text-section {
+  width: 400px;
+  padding: 20px;
+}
+
+main .text-section .product-name {
+  padding-bottom: 15px;
+  font-size: 32px;
+  color: black;
+}
+
+main .text-section .subtitle {
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: lightgray;
+}
+
+main .text-section .desc {
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+main .text-section .color-section {
+  display: flex;
+  padding: 20px;
+}
+
+main .text-section .color-section .colors {
+  font-size: 14px;
+}
+
+main .text-section .color-section .available-colors {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+main .text-section .color-section .available-colors .color1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+main .text-section .color-section .available-colors .color2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+main .text-section .color-section .available-colors .color3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: beige;
+}
+
+main .text-section .purchase {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .text-section .purchase .price {
+  font-size: 32px;
+}
+
+main .text-section .purchase .buy-btn {
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+main .text-section .purchase .buy-btn a {
+  text-decoration: none;
+  color: white;
+}
